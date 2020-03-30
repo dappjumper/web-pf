@@ -1,0 +1,38 @@
+main, article {
+	width:100%;
+}
+
+main, article, .container {
+	box-sizing:border-box;
+}
+
+main, article {
+	float:left;
+}
+
+.container {
+	float:left;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+article {
+	max-width:1080px;
+	margin:0 auto;
+	padding:64px 16px;
+	position:relative;
+	left:50%;
+	transform:translate(-50%, 0);
+}
+
+.half {
+	max-width:50%;
+}
+
+.quart {
+	max-width:25%;
+}
+
+.quartquartquart {
+	max-width:75%;
+}

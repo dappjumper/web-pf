@@ -1,0 +1,28 @@
+button {
+	transition:all .1s;
+}
+
+button {
+	padding:16px 32px;
+	outline:none;
+	border:2px solid #fafafa;
+	background:none;
+	color:#fafafa;
+	cursor:pointer;
+	border-radius:8px;
+}
+
+button:hover {
+	background:#fafafa;
+	color:#333333;
+}
+
+button i {
+	display:inline-block;
+	width:25px;
+	text-align:left;
+}
+
+button.noborder {
+	border:none;
+}
